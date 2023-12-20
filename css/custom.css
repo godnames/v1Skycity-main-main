@@ -113,72 +113,72 @@ header #mainNav ul{
   .booking_form{
     display: none;
   }
-  .hamburger_2 .btn_1 {
-    left: -100%;
+  .hamburger_2 .btn_2 {
+    left: -85%;
     top: 0;
     width: 100%;
     height: 100%;
     display: inline-block;
     position: relative;
     text-align: center;
+    background-color: #FDC85E;
+    padding: 5px;
+    border: 1px solid transparent ;
+    border-radius: 1.2rem;
   }
   .hamburger_2 .hamburger__box{
-    left: -10%;
-  }
-  .reveal_header .col-9 {
-    flex: 0 0 auto;
-    width: 70%;
+    left:10%;
   }
   
+  .a.btn_2, .btn_2 {
+    margin-right: -50px;
+  }
+  .contactIcon3, .contactIcon, .contactIcon1{
+    right: 50px !important;
+    bottom: 260px;
 }
+}
+  
+
 @media (max-width: 767px){
   .reveal_header {
     width: 100%;
   }
+  
 }
 @media only screen and (max-width: 420px) {
   
-  .hamburger_2 .btn_1 {
-    left: -90%;
-    top: 0;
-    width: 100%;
+  .hamburger_2 .btn_2 {
+    left: -80%;
+    top: 30px;
+    width: 170%;
     height: 100%;
     display: inline-block;
     position: relative;
-    width: 100%;
+    
     text-align: center;
+    background-color: #FDC85E !important;
+    padding: 5px;
+    border: 1px solid transparent ;
+    border-radius: 1.2rem;
+
+  }
+  .hamburger_2 .hamburger__box{
+    left:80%;
   }
   .reveal_header .col-9 {
     flex: 0 0 auto;
     width: 70%;
   }
-  .main{
-    max-width: 420px;
-  }
-}
-@media only screen and (max-width: 630px) {
   
-  
-  .main{
-    max-width: 630px;
-  }
 }
+
 @media only screen and (min-width: 991px) {
   
-  .hamburger_2 .btn_1 {
+  .hamburger_2 .btn_2 {
     visibility: hidden; 
   }
-  .main{
-    max-width: 991px;
-  }
-}
-a.btn_1, .btn_1 {
-  margin-right: -50px;
-}
-@media (min-width: 1200px)
-{
   
-  .virtual-tour {
-    max-width: 1200px !important;
+ 
 }
-}
+
