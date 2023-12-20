@@ -89,7 +89,7 @@ div{
     color: #fff;
 }
 .contactIcon--content a:hover > span {
-    padding: 0 19rem 0 1.5625rem;
+    padding: 0 16rem 0 1.5625rem;
     margin-right: -26px;
 }
 .contactIcon--content a .icon {
@@ -152,7 +152,7 @@ div{
     -ms-flex-pack: center;
     justify-content: center;
     height: 60px;
-    background: #d81a24;
+    background: #0d0d27;
     color: #fff;
 }
 .contactIcon--content1 a > span:after {
@@ -181,8 +181,8 @@ div{
     color: #fff;
 }
 .contactIcon--content1 a:hover > span {
-    padding: 0 15rem 0 1.5625rem;
-    margin-right: -26px;
+    padding: 0 12rem 0 1.5625rem;
+    margin-right: -23px;
 }
 .contactIcon--content1 a .icon {
     width: 60px;
@@ -355,8 +355,8 @@ div{
     color: #fff;
 }
 .contactIcon--content3 a:hover > span {
-    padding: 0 15rem 0 1.5625rem;
-    margin-right: -26px;
+    padding: 0 10rem 0 1.5625rem;
+    margin-right: -23px;
 }
 .contactIcon--content3 a .icon {
     width: 60px;
@@ -400,6 +400,8 @@ button {
 }
 .btn1 .fas{
     box-sizing: border-box;
+    color: black;
+    font-size: 22px;
 }
 
 
