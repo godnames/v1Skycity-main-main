@@ -170,6 +170,10 @@ header #mainNav ul{
     flex: 0 0 auto;
     width: 70%;
   }
+  .contactIcon3, .contactIcon, .contactIcon1{
+    right: 30px !important;
+    bottom: 260px;
+}
   
 }
 
