@@ -185,4 +185,9 @@ header #mainNav ul{
   
  
 }
+@media only screen and (min-width: 1200px) {
+  .reveal_header .container {
+    max-width: 1225px;
+  }
+}
 
